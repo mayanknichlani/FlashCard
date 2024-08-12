@@ -1,0 +1,23 @@
+.flashcard-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+  }
+  
+  .navigation-buttons {
+    margin-top: 10px;
+  }
+  
+  .navigation-buttons button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .navigation-buttons button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
